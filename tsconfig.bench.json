@@ -1,0 +1,24 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "types": [
+          "node",
+          "jest"
+      ]
+  },
+  "include": [
+      "src/**/*.ts",
+      "tests/**/*.ts",
+      "benchmark/**/*.bench.ts"
+  ],
+  "exclude": [
+      "node_modules",
+      "dist",
+      "benchmarks",
+      "coverage",
+      "logs"
+  ]
+}

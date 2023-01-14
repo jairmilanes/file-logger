@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "es6",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "rootDir": ".",
+    "baseUrl": ".",
+    "strict": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "types": [
+        "node",
+        "jest"
+    ]
+  },
+  "include": [
+      "**/*.ts"
+  ],
+  "exclude": [
+      "node_modules",
+      "dist",
+      "benchmarks",
+      "coverage",
+      "logs"
+  ]
+}
